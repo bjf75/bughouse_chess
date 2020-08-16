@@ -1,0 +1,9 @@
+README.rst
+setup.py
+pychess/__init__.py
+pychess/release.py
+pychess/test.py
+pychess.egg-info/PKG-INFO
+pychess.egg-info/SOURCES.txt
+pychess.egg-info/dependency_links.txt
+pychess.egg-info/top_level.txt

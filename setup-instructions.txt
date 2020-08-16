@@ -1,0 +1,16 @@
+In order to properly set up so that way imports work correctly, follow these
+instructions.
+
+setup a python environment for this project:
+following the instructions at https://docs.python.org/3.7/tutorial/venv.html
+navigate to the bughouse-chess directory, and run '<python-version> -m venv bugenv',
+replacing <python-version> with the name/path of the python version to run with (for me,
+it was ~/anaconda3/bin/python)
+then, if on mac, run 'source bugenv/bin/activate'; if on Windows run 'bugenv\Scripts\activate.bat'
+(anytime your terminal doesn't start with '(bugenv)' you'll need to use this call again)
+This makes it easier to coordinate a version of python to run with scripts. 
+
+Then, while still in the bughouse-chess directory, call 'pip install -e .' (yes, you need that period)
+(depending on the last time pip has been upgraded, this may require you to upgrade pip; if so, it'll
+say what command to use) (you should be in the 'bugenv' environment so it uses the version of
+pip with bugenv)

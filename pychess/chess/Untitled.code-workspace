@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "/Users/bryce/CS4701/bughouse-chess"
+		},
+		{
+			"path": "/Users/bryce/CS4701/sample"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
+		}
+	}
+}
